@@ -56,7 +56,10 @@ Partial Class Unisoft
         Me.Button1 = New System.Windows.Forms.Button()
         Me.EscolarOrd = New System.Windows.Forms.Button()
         Me.PromoyDifu = New System.Windows.Forms.Button()
-        Me.pruebas = New System.Windows.Forms.Button()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Button8 = New System.Windows.Forms.Button()
+        Me.Button9 = New System.Windows.Forms.Button()
         Me.TabControl.SuspendLayout()
         Me.promoydif.SuspendLayout()
         Me.Plan.SuspendLayout()
@@ -93,7 +96,10 @@ Partial Class Unisoft
         'promoydif
         '
         Me.promoydif.BackColor = System.Drawing.Color.Khaki
-        Me.promoydif.Controls.Add(Me.pruebas)
+        Me.promoydif.Controls.Add(Me.Button9)
+        Me.promoydif.Controls.Add(Me.Button8)
+        Me.promoydif.Controls.Add(Me.Label3)
+        Me.promoydif.Controls.Add(Me.Label2)
         Me.promoydif.Location = New System.Drawing.Point(4, 22)
         Me.promoydif.Name = "promoydif"
         Me.promoydif.Padding = New System.Windows.Forms.Padding(3)
@@ -504,14 +510,43 @@ Partial Class Unisoft
         Me.PromoyDifu.Text = "Promoción y Difusion"
         Me.PromoyDifu.UseVisualStyleBackColor = False
         '
-        'pruebas
+        'Label2
         '
-        Me.pruebas.Location = New System.Drawing.Point(507, 144)
-        Me.pruebas.Name = "pruebas"
-        Me.pruebas.Size = New System.Drawing.Size(75, 23)
-        Me.pruebas.TabIndex = 0
-        Me.pruebas.Text = "Prueba"
-        Me.pruebas.UseVisualStyleBackColor = True
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(301, 119)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(501, 42)
+        Me.Label2.TabIndex = 15
+        Me.Label2.Text = "PROMOSIÓN Y DIFUSIÓN "
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(486, 43)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(132, 42)
+        Me.Label3.TabIndex = 16
+        Me.Label3.Text = "MENÚ"
+        '
+        'Button8
+        '
+        Me.Button8.Location = New System.Drawing.Point(299, 198)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(156, 58)
+        Me.Button8.TabIndex = 17
+        Me.Button8.Text = " NUEVO PROSPECTO"
+        Me.Button8.UseVisualStyleBackColor = True
+        '
+        'Button9
+        '
+        Me.Button9.Location = New System.Drawing.Point(662, 198)
+        Me.Button9.Name = "Button9"
+        Me.Button9.Size = New System.Drawing.Size(156, 58)
+        Me.Button9.TabIndex = 18
+        Me.Button9.Text = "BUSCAR PROSPECTO"
+        Me.Button9.UseVisualStyleBackColor = True
         '
         'Unisoft
         '
@@ -531,6 +566,7 @@ Partial Class Unisoft
         Me.Text = "Unisoft"
         Me.TabControl.ResumeLayout(False)
         Me.promoydif.ResumeLayout(False)
+        Me.promoydif.PerformLayout()
         Me.Plan.ResumeLayout(False)
         Me.Plan.PerformLayout()
         Me.Aud.ResumeLayout(False)
@@ -573,5 +609,8 @@ Partial Class Unisoft
     Friend WithEvents Profes As Button
     Friend WithEvents Materia As Button
     Friend WithEvents Licen As Button
-    Friend WithEvents pruebas As Button
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Button9 As Button
+    Friend WithEvents Button8 As Button
 End Class

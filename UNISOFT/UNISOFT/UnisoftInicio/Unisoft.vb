@@ -5,8 +5,10 @@
 
     End Sub
 
-    Private Sub PromoyDifu_Click(sender As Object, e As EventArgs) Handles PromoyDifu.Click, Button1.Click
+    Private Sub PromoyDifu_Click(sender As Object, e As EventArgs) Handles PromoyDifu.Click, Button1.Click, Button8.Click, Button9.Click
         TabControl.SelectedTab = TabControl.TabPages.Item(1)
+        n_prospecto.Show(Button8)
+
     End Sub
 
     Private Sub Finanzas_Click(sender As Object, e As EventArgs) Handles Finanzas.Click, Button4.Click
@@ -39,6 +41,22 @@
     End Sub
 
     Private Sub Plan_Click(sender As Object, e As EventArgs) Handles Plan.Click
+
+    End Sub
+
+    Private Sub Grupo_Click(sender As Object, e As EventArgs) Handles Grupo.Click
+
+    End Sub
+
+    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
+
+    End Sub
+
+    Private Sub pruebas_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
 
     End Sub
 
