@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class n_prospecto
+Partial Class N_prospecto
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -65,6 +65,13 @@ Partial Class n_prospecto
         Me.guardar = New System.Windows.Forms.Button()
         Me.imrpimir = New System.Windows.Forms.Button()
         Me.menu = New System.Windows.Forms.Button()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
+        Me.Label25 = New System.Windows.Forms.Label()
+        Me.TextBox16 = New System.Windows.Forms.TextBox()
+        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
+        Me.TextBox17 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Label2
@@ -197,7 +204,7 @@ Partial Class n_prospecto
         'Label15
         '
         Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(77, 496)
+        Me.Label15.Location = New System.Drawing.Point(75, 509)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(40, 13)
         Me.Label15.TabIndex = 30
@@ -206,7 +213,7 @@ Partial Class n_prospecto
         'Label16
         '
         Me.Label16.AutoSize = True
-        Me.Label16.Location = New System.Drawing.Point(49, 553)
+        Me.Label16.Location = New System.Drawing.Point(49, 571)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(73, 13)
         Me.Label16.TabIndex = 31
@@ -215,7 +222,7 @@ Partial Class n_prospecto
         'Label17
         '
         Me.Label17.AutoSize = True
-        Me.Label17.Location = New System.Drawing.Point(49, 575)
+        Me.Label17.Location = New System.Drawing.Point(49, 603)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(70, 13)
         Me.Label17.TabIndex = 32
@@ -224,7 +231,7 @@ Partial Class n_prospecto
         'Label18
         '
         Me.Label18.AutoSize = True
-        Me.Label18.Location = New System.Drawing.Point(68, 609)
+        Me.Label18.Location = New System.Drawing.Point(496, 104)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(47, 13)
         Me.Label18.TabIndex = 33
@@ -233,25 +240,25 @@ Partial Class n_prospecto
         'Label19
         '
         Me.Label19.AutoSize = True
-        Me.Label19.Location = New System.Drawing.Point(72, 645)
+        Me.Label19.Location = New System.Drawing.Point(496, 137)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(45, 13)
+        Me.Label19.Size = New System.Drawing.Size(27, 13)
         Me.Label19.TabIndex = 34
-        Me.Label19.Text = "Colonia:"
+        Me.Label19.Text = "C.P:"
         '
         'Label20
         '
         Me.Label20.AutoSize = True
-        Me.Label20.Location = New System.Drawing.Point(525, 102)
+        Me.Label20.Location = New System.Drawing.Point(496, 169)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(27, 13)
+        Me.Label20.Size = New System.Drawing.Size(45, 13)
         Me.Label20.TabIndex = 35
-        Me.Label20.Text = "C.P:"
+        Me.Label20.Text = "Colonia:"
         '
         'Label21
         '
         Me.Label21.AutoSize = True
-        Me.Label21.Location = New System.Drawing.Point(82, 521)
+        Me.Label21.Location = New System.Drawing.Point(82, 536)
         Me.Label21.Name = "Label21"
         Me.Label21.Size = New System.Drawing.Size(33, 13)
         Me.Label21.TabIndex = 36
@@ -260,7 +267,7 @@ Partial Class n_prospecto
         'Label22
         '
         Me.Label22.AutoSize = True
-        Me.Label22.Location = New System.Drawing.Point(509, 134)
+        Me.Label22.Location = New System.Drawing.Point(500, 69)
         Me.Label22.Name = "Label22"
         Me.Label22.Size = New System.Drawing.Size(43, 13)
         Me.Label22.TabIndex = 37
@@ -269,7 +276,7 @@ Partial Class n_prospecto
         'Label23
         '
         Me.Label23.AutoSize = True
-        Me.Label23.Location = New System.Drawing.Point(477, 164)
+        Me.Label23.Location = New System.Drawing.Point(466, 205)
         Me.Label23.Name = "Label23"
         Me.Label23.Size = New System.Drawing.Size(75, 13)
         Me.Label23.TabIndex = 38
@@ -278,7 +285,7 @@ Partial Class n_prospecto
         'Label24
         '
         Me.Label24.AutoSize = True
-        Me.Label24.Location = New System.Drawing.Point(519, 188)
+        Me.Label24.Location = New System.Drawing.Point(506, 236)
         Me.Label24.Name = "Label24"
         Me.Label24.Size = New System.Drawing.Size(33, 13)
         Me.Label24.TabIndex = 39
@@ -286,7 +293,7 @@ Partial Class n_prospecto
         '
         'DateTimePicker1
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(558, 164)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(543, 205)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(200, 20)
         Me.DateTimePicker1.TabIndex = 40
@@ -356,35 +363,35 @@ Partial Class n_prospecto
         '
         'TextBox10
         '
-        Me.TextBox10.Location = New System.Drawing.Point(128, 518)
+        Me.TextBox10.Location = New System.Drawing.Point(128, 533)
         Me.TextBox10.Name = "TextBox10"
         Me.TextBox10.Size = New System.Drawing.Size(100, 20)
         Me.TextBox10.TabIndex = 50
         '
         'TextBox11
         '
-        Me.TextBox11.Location = New System.Drawing.Point(128, 546)
+        Me.TextBox11.Location = New System.Drawing.Point(128, 571)
         Me.TextBox11.Name = "TextBox11"
         Me.TextBox11.Size = New System.Drawing.Size(100, 20)
         Me.TextBox11.TabIndex = 51
         '
         'TextBox12
         '
-        Me.TextBox12.Location = New System.Drawing.Point(128, 572)
+        Me.TextBox12.Location = New System.Drawing.Point(128, 603)
         Me.TextBox12.Name = "TextBox12"
         Me.TextBox12.Size = New System.Drawing.Size(100, 20)
         Me.TextBox12.TabIndex = 52
         '
         'TextBox13
         '
-        Me.TextBox13.Location = New System.Drawing.Point(130, 638)
+        Me.TextBox13.Location = New System.Drawing.Point(547, 137)
         Me.TextBox13.Name = "TextBox13"
         Me.TextBox13.Size = New System.Drawing.Size(100, 20)
         Me.TextBox13.TabIndex = 53
         '
         'TextBox14
         '
-        Me.TextBox14.Location = New System.Drawing.Point(558, 99)
+        Me.TextBox14.Location = New System.Drawing.Point(547, 167)
         Me.TextBox14.Name = "TextBox14"
         Me.TextBox14.Size = New System.Drawing.Size(100, 20)
         Me.TextBox14.TabIndex = 54
@@ -398,7 +405,7 @@ Partial Class n_prospecto
         '
         'guardar
         '
-        Me.guardar.Location = New System.Drawing.Point(522, 309)
+        Me.guardar.Location = New System.Drawing.Point(547, 320)
         Me.guardar.Name = "guardar"
         Me.guardar.Size = New System.Drawing.Size(156, 58)
         Me.guardar.TabIndex = 57
@@ -407,7 +414,7 @@ Partial Class n_prospecto
         '
         'imrpimir
         '
-        Me.imrpimir.Location = New System.Drawing.Point(522, 388)
+        Me.imrpimir.Location = New System.Drawing.Point(547, 396)
         Me.imrpimir.Name = "imrpimir"
         Me.imrpimir.Size = New System.Drawing.Size(156, 58)
         Me.imrpimir.TabIndex = 58
@@ -416,12 +423,69 @@ Partial Class n_prospecto
         '
         'menu
         '
-        Me.menu.Location = New System.Drawing.Point(522, 469)
+        Me.menu.Location = New System.Drawing.Point(547, 469)
         Me.menu.Name = "menu"
         Me.menu.Size = New System.Drawing.Size(156, 58)
         Me.menu.TabIndex = 59
         Me.menu.Text = "MENÚ "
         Me.menu.UseVisualStyleBackColor = True
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Items.AddRange(New Object() {"Aguascalientes", "Baja California", "Baja California Sur", "Campeche", "Chiapas", "Chihuahua", "Ciudad De México", "Coahuila de Zaragoza", "Colima", "Durango", "Estado de México", "Guanajuato", "Guerrero", "Hidalgo", "Jalisco", "Michoacán de Ocampo", "Morelos", "Nayarit", "Nuevo León", "Oaxaca", "Puebla", "Querétaro", "Quintana Roo", "San Luis Potosí", "Sinaloa", "Sonora", "Tabasco", "Tamaulipas", "Tlaxcala", "Veracruz de Ignacio de la Llave", "Yucatán", "Zacatecas"})
+        Me.ComboBox1.Location = New System.Drawing.Point(547, 66)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(100, 21)
+        Me.ComboBox1.TabIndex = 62
+        '
+        'ComboBox2
+        '
+        Me.ComboBox2.FormattingEnabled = True
+        Me.ComboBox2.Items.AddRange(New Object() {"Hombre", "Mujer", "Otro"})
+        Me.ComboBox2.Location = New System.Drawing.Point(130, 253)
+        Me.ComboBox2.Name = "ComboBox2"
+        Me.ComboBox2.Size = New System.Drawing.Size(100, 21)
+        Me.ComboBox2.TabIndex = 63
+        '
+        'ComboBox3
+        '
+        Me.ComboBox3.FormattingEnabled = True
+        Me.ComboBox3.Items.AddRange(New Object() {"Soltero/a", "Casado/a", "Divorciado/a", "Viudo/a"})
+        Me.ComboBox3.Location = New System.Drawing.Point(130, 441)
+        Me.ComboBox3.Name = "ComboBox3"
+        Me.ComboBox3.Size = New System.Drawing.Size(100, 21)
+        Me.ComboBox3.TabIndex = 64
+        '
+        'Label25
+        '
+        Me.Label25.AutoSize = True
+        Me.Label25.Location = New System.Drawing.Point(127, 469)
+        Me.Label25.Name = "Label25"
+        Me.Label25.Size = New System.Drawing.Size(0, 13)
+        Me.Label25.TabIndex = 65
+        '
+        'TextBox16
+        '
+        Me.TextBox16.Location = New System.Drawing.Point(130, 469)
+        Me.TextBox16.Name = "TextBox16"
+        Me.TextBox16.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox16.TabIndex = 66
+        '
+        'ComboBox4
+        '
+        Me.ComboBox4.FormattingEnabled = True
+        Me.ComboBox4.Location = New System.Drawing.Point(128, 500)
+        Me.ComboBox4.Name = "ComboBox4"
+        Me.ComboBox4.Size = New System.Drawing.Size(102, 21)
+        Me.ComboBox4.TabIndex = 67
+        '
+        'TextBox17
+        '
+        Me.TextBox17.Location = New System.Drawing.Point(547, 104)
+        Me.TextBox17.Name = "TextBox17"
+        Me.TextBox17.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox17.TabIndex = 68
         '
         'n_prospecto
         '
@@ -429,6 +493,13 @@ Partial Class n_prospecto
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Khaki
         Me.ClientSize = New System.Drawing.Size(1201, 677)
+        Me.Controls.Add(Me.TextBox17)
+        Me.Controls.Add(Me.ComboBox4)
+        Me.Controls.Add(Me.TextBox16)
+        Me.Controls.Add(Me.Label25)
+        Me.Controls.Add(Me.ComboBox3)
+        Me.Controls.Add(Me.ComboBox2)
+        Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.menu)
         Me.Controls.Add(Me.imrpimir)
         Me.Controls.Add(Me.guardar)
@@ -474,7 +545,6 @@ Partial Class n_prospecto
         Me.Controls.Add(Me.Label2)
         Me.Name = "n_prospecto"
         Me.Padding = New System.Windows.Forms.Padding(3)
-        Me.Text = "n_prospecto"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -523,4 +593,11 @@ Partial Class n_prospecto
     Friend WithEvents guardar As Button
     Friend WithEvents imrpimir As Button
     Friend WithEvents menu As Button
+    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents ComboBox2 As ComboBox
+    Friend WithEvents ComboBox3 As ComboBox
+    Friend WithEvents Label25 As Label
+    Friend WithEvents TextBox16 As TextBox
+    Friend WithEvents ComboBox4 As ComboBox
+    Friend WithEvents TextBox17 As TextBox
 End Class

@@ -5,9 +5,17 @@
 
     End Sub
 
-    Private Sub PromoyDifu_Click(sender As Object, e As EventArgs) Handles PromoyDifu.Click, Button1.Click, Button8.Click, Button9.Click
+    Private Sub PromoyDifu_Click(sender As Object, e As EventArgs) Handles PromoyDifu.Click, Button1.Click
         TabControl.SelectedTab = TabControl.TabPages.Item(1)
-        n_prospecto.Show(Button8)
+    End Sub
+    Private Sub Nuevo_Click(sender As Object, e As EventArgs) Handles nuevo.Click
+        N_prospecto.Show(nuevo)
+
+    End Sub
+
+    Private Sub Buscar_Click(sender As Object, e As EventArgs) Handles buscar.Click
+        B_Prospecto.Show(buscar)
+
 
     End Sub
 
@@ -56,7 +64,7 @@
 
     End Sub
 
-    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
+    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles nuevo.Click
 
     End Sub
 

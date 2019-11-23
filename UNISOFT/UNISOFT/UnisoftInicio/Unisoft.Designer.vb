@@ -27,6 +27,10 @@ Partial Class Unisoft
         Me.TabControl = New System.Windows.Forms.TabControl()
         Me.Alumno = New System.Windows.Forms.TabPage()
         Me.promoydif = New System.Windows.Forms.TabPage()
+        Me.buscar = New System.Windows.Forms.Button()
+        Me.nuevo = New System.Windows.Forms.Button()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.Fin = New System.Windows.Forms.TabPage()
         Me.EscolOrd = New System.Windows.Forms.TabPage()
         Me.Plan = New System.Windows.Forms.TabPage()
@@ -56,10 +60,6 @@ Partial Class Unisoft
         Me.Button1 = New System.Windows.Forms.Button()
         Me.EscolarOrd = New System.Windows.Forms.Button()
         Me.PromoyDifu = New System.Windows.Forms.Button()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Button8 = New System.Windows.Forms.Button()
-        Me.Button9 = New System.Windows.Forms.Button()
         Me.TabControl.SuspendLayout()
         Me.promoydif.SuspendLayout()
         Me.Plan.SuspendLayout()
@@ -96,8 +96,8 @@ Partial Class Unisoft
         'promoydif
         '
         Me.promoydif.BackColor = System.Drawing.Color.Khaki
-        Me.promoydif.Controls.Add(Me.Button9)
-        Me.promoydif.Controls.Add(Me.Button8)
+        Me.promoydif.Controls.Add(Me.buscar)
+        Me.promoydif.Controls.Add(Me.nuevo)
         Me.promoydif.Controls.Add(Me.Label3)
         Me.promoydif.Controls.Add(Me.Label2)
         Me.promoydif.Location = New System.Drawing.Point(4, 22)
@@ -106,6 +106,44 @@ Partial Class Unisoft
         Me.promoydif.Size = New System.Drawing.Size(1217, 715)
         Me.promoydif.TabIndex = 1
         Me.promoydif.Text = "Promoción y Difusion"
+        '
+        'buscar
+        '
+        Me.buscar.Location = New System.Drawing.Point(662, 182)
+        Me.buscar.Name = "buscar"
+        Me.buscar.Size = New System.Drawing.Size(156, 74)
+        Me.buscar.TabIndex = 18
+        Me.buscar.Text = "BUSCAR PROSPECTO"
+        Me.buscar.UseVisualStyleBackColor = True
+        '
+        'nuevo
+        '
+        Me.nuevo.Location = New System.Drawing.Point(299, 182)
+        Me.nuevo.Name = "nuevo"
+        Me.nuevo.Size = New System.Drawing.Size(156, 74)
+        Me.nuevo.TabIndex = 17
+        Me.nuevo.Text = " NUEVO PROSPECTO"
+        Me.nuevo.UseVisualStyleBackColor = True
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(486, 43)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(132, 42)
+        Me.Label3.TabIndex = 16
+        Me.Label3.Text = "MENÚ"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(301, 119)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(503, 42)
+        Me.Label2.TabIndex = 15
+        Me.Label2.Text = "PROMOCIÓN Y DIFUSIÓN "
         '
         'Fin
         '
@@ -510,44 +548,6 @@ Partial Class Unisoft
         Me.PromoyDifu.Text = "Promoción y Difusion"
         Me.PromoyDifu.UseVisualStyleBackColor = False
         '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(301, 119)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(501, 42)
-        Me.Label2.TabIndex = 15
-        Me.Label2.Text = "PROMOSIÓN Y DIFUSIÓN "
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(486, 43)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(132, 42)
-        Me.Label3.TabIndex = 16
-        Me.Label3.Text = "MENÚ"
-        '
-        'Button8
-        '
-        Me.Button8.Location = New System.Drawing.Point(299, 198)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(156, 58)
-        Me.Button8.TabIndex = 17
-        Me.Button8.Text = " NUEVO PROSPECTO"
-        Me.Button8.UseVisualStyleBackColor = True
-        '
-        'Button9
-        '
-        Me.Button9.Location = New System.Drawing.Point(662, 198)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(156, 58)
-        Me.Button9.TabIndex = 18
-        Me.Button9.Text = "BUSCAR PROSPECTO"
-        Me.Button9.UseVisualStyleBackColor = True
-        '
         'Unisoft
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -611,6 +611,6 @@ Partial Class Unisoft
     Friend WithEvents Licen As Button
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents Button9 As Button
-    Friend WithEvents Button8 As Button
+    Friend WithEvents buscar As Button
+    Friend WithEvents nuevo As Button
 End Class
