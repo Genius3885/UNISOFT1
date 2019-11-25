@@ -28,3 +28,4 @@ C:\Users\DGB\Documents\GitHub\UNISOFT1\UNISOFT\UNISOFT\obj\Debug\UNISOFT.vbproj.
 C:\Users\DGB\Documents\GitHub\UNISOFT1\UNISOFT\UNISOFT\obj\Debug\UNISOFT.exe
 C:\Users\DGB\Documents\GitHub\UNISOFT1\UNISOFT\UNISOFT\obj\Debug\UNISOFT.xml
 C:\Users\DGB\Documents\GitHub\UNISOFT1\UNISOFT\UNISOFT\obj\Debug\UNISOFT.pdb
+C:\Users\Dave-PC\Desktop\David\Unila\VII\ERP\UNISOFT\UNISOFT\UNISOFT\obj\Debug\UNISOFT.n_prospecto.resources

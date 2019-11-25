@@ -8,6 +8,7 @@ Public Class InicioSesion
         Dim logusuario As String = usuario.Text
         Dim pass As String = passusuario.Text
         Dim usuarioligin As String
+        validaccesos(logusuario)
         'BUSCAMOS INFORMACION DEL USUARIO EN LA BD PARA DAR LOS ACCESOS
         Using connection1 As New SqlConnection(Conexion)
             usuarioligin = "select correo from UserUnisotf where Correo = " + "'" + logusuario + "' and Password = " + "'" + pass + "'"
@@ -52,4 +53,10 @@ Public Class InicioSesion
     Private Sub Salir_Click(sender As Object, e As EventArgs) Handles salir.Click
         UnisoftInicio.Close()
     End Sub
+    Public Function validaccesos(logusuario)
+        If logusuario = "auditoria@unisoft.com" Then
+            Button6.visible
+        End If
+
+    End Function
 End Class

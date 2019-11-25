@@ -1,8 +1,7 @@
 ﻿Public Class Unisoft
 
-    Private Sub Alumnos_Click(sender As Object, e As EventArgs) Handles Alumnos.Click, Button6.Click
+    Public Sub Alumnos_Click(sender As Object, e As EventArgs) Handles Alumnos.Click, Button6.Click
         TabControl.SelectedTab = TabControl.TabPages.Item(0)
-
     End Sub
 
     Private Sub PromoyDifu_Click(sender As Object, e As EventArgs) Handles PromoyDifu.Click, Button1.Click
@@ -14,7 +13,7 @@
 
     End Sub
 
-    Private Sub Buscar_Click(sender As Object, e As EventArgs) Handles buscar.Click
+    Public Sub Buscar_Click(sender As Object, e As EventArgs) Handles buscar.Click
         B_Proscpecto.Show(buscar)
         Me.Hide()
 

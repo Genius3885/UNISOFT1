@@ -91,6 +91,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="UnisoftInicio\B_Prospecto.Designer.vb">
+      <DependentUpon>B_Prospecto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UnisoftInicio\B_Prospecto.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="UnisoftInicio\CrearUsuarios.Designer.vb">
       <DependentUpon>CrearUsuarios.vb</DependentUpon>
     </Compile>
