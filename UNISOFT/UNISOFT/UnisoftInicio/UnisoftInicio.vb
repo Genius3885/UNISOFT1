@@ -1,4 +1,7 @@
-﻿Public Class UnisoftInicio
+﻿Imports System.Data.SqlClient
+Imports System.Threading
+Public Class UnisoftInicio
+    Public Conexion As String = "Data Source = DAVE\SQLEXPRESS; Initial Catalog = UsuariosUnisoft; Integrated Security = True"
     Private Sub UnisoftInicio_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub

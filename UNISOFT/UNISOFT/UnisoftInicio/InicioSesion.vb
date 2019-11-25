@@ -3,12 +3,11 @@ Imports System.Threading
 Public Class InicioSesion
     Public Conexion As String = "Data Source = DAVE\SQLEXPRESS; Initial Catalog = UsuariosUnisoft; Integrated Security = True"
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles ingresar.Click
 
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles ingresar.Click
         Dim logusuario As String = usuario.Text
         Dim pass As String = passusuario.Text
         Dim usuarioligin As String
-        validaccesos(logusuario)
         'BUSCAMOS INFORMACION DEL USUARIO EN LA BD PARA DAR LOS ACCESOS
         Using connection1 As New SqlConnection(Conexion)
             usuarioligin = "select correo from UserUnisotf where Correo = " + "'" + logusuario + "' and Password = " + "'" + pass + "'"
@@ -29,7 +28,9 @@ Public Class InicioSesion
             If logusuario = "" Or pass = "" Then
                 MsgBox("Favor de Llenar los Campos")
             Else
-                Thread.Sleep(2000)
+                Logs.LogUsurio = usuario.Text
+                Logs.contrasena = passusuario.Text
+                Thread.Sleep(1000)
                 MsgBox("Bienveni  " + logusuario)
                 Unisoft.Show()
                 Me.Hide()
@@ -53,10 +54,5 @@ Public Class InicioSesion
     Private Sub Salir_Click(sender As Object, e As EventArgs) Handles salir.Click
         UnisoftInicio.Close()
     End Sub
-    Public Function validaccesos(logusuario)
-        If logusuario = "auditoria@unisoft.com" Then
-            Button6.visible
-        End If
 
-    End Function
 End Class

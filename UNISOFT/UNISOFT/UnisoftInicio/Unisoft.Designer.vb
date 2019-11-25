@@ -297,7 +297,7 @@ Partial Class Unisoft
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel2.Location = New System.Drawing.Point(0, 0)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(1225, 10)
+        Me.Panel2.Size = New System.Drawing.Size(1225, 79)
         Me.Panel2.TabIndex = 2
         '
         'PictureBox1

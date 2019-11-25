@@ -125,6 +125,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="UnisoftInicio\Logs.vb" />
     <Compile Include="UnisoftInicio\n_prospecto.Designer.vb">
       <DependentUpon>n_prospecto.vb</DependentUpon>
     </Compile>
