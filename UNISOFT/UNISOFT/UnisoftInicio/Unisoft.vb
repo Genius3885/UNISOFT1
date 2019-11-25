@@ -9,13 +9,14 @@
         TabControl.SelectedTab = TabControl.TabPages.Item(1)
     End Sub
     Private Sub Nuevo_Click(sender As Object, e As EventArgs) Handles nuevo.Click
-        N_prospecto.Show(nuevo)
+        N_Prospecto.Show(nuevo)
+        Me.Hide()
 
     End Sub
 
     Private Sub Buscar_Click(sender As Object, e As EventArgs) Handles buscar.Click
-        B_Prospecto.Show(buscar)
-
+        B_Proscpecto.Show(buscar)
+        Me.Hide()
 
     End Sub
 

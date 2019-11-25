@@ -129,7 +129,7 @@ Partial Class Unisoft
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(486, 43)
+        Me.Label3.Location = New System.Drawing.Point(513, 63)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(132, 42)
         Me.Label3.TabIndex = 16
@@ -141,9 +141,9 @@ Partial Class Unisoft
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(301, 119)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(503, 42)
+        Me.Label2.Size = New System.Drawing.Size(501, 42)
         Me.Label2.TabIndex = 15
-        Me.Label2.Text = "PROMOCIÓN Y DIFUSIÓN "
+        Me.Label2.Text = "PROMOSIÓN Y DIFUSIÓN "
         '
         'Fin
         '
